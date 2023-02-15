@@ -1,0 +1,44 @@
+body {
+    background-color: #657fa7;
+    background-image: linear-gradient(315deg, #b8c6db 0%, #c78ce0 100%);
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+form {
+    background-color: #fff;  
+    width: 600px;
+    overflow: hidden;
+    padding: 100px;
+    display: flex;
+    flex-wrap:wrap;
+}
+button {
+    background-color: #af58d4;
+    color: #fff;
+    font-family: 'Noto Sans JP', sans-serif;
+    width: 100%;
+    border: 1px solid black;
+    font-size: 15px;
+    padding: 15px;
+    margin-top: 10px;
+}
+label {
+    font-size: 16px;
+    padding: 10px;
+    margin: 10px;
+    font-weight: bold;
+}
+.btn {
+    margin-top: 30px;
+}
+.questionOne, .questionTwo, .questionThree, .questionFour, .questionFive {
+    padding: 30px;
+}
+#show {
+    margin: auto;
+    margin-top: 10px;
+}
